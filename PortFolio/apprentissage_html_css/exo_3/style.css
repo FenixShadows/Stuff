@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #808080;
+    color: #ffffff;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img.avatar-img
+{
+    width: 200px ;
+}
+
+header h1.titre {
+    font-size: 180px;
+}
+/* navigation */
+nav.navigation ul li{
+    display: inline-block;
+    margin : 10px;
+}
+nav.navigation ul li a{
+    text-decoration: none;
+    color : #808080;
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+/*  section_conteneur */
+.section_conteneur{
+    background-color: #666565;
+    margin: 500px 10% 50px;
+    padding: 5%;
+}
+
+.weapon_contain{
+    display: flex;
+    padding: 20px;
+}
+
+.weapon-item img{
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+section{
+    display: table;
+    width: 100%;
+}
+
+/* about */
+section#about {
+    height : 250px;
+    background: url(images/intro.jpg) fixed no-repeat;
+    background-position: center;
+}
+
+/* weapon */
+section#weapon{
+    height : 250px;
+    background: url(images/armurerie.jpg) fixed no-repeat;
+    background-position: center;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+}

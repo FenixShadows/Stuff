@@ -1,0 +1,26 @@
+1- Affichage 
+    Ctrl + B                                         : cacher et afficher la side bar 
+    Ctrl + (+/-)                                     : Zoomer et dézoomer pour se focaliser sur une partie du code 
+    Alt + Ctrl + (Flèche de gauche /Flèche de droite): Splitter une page à gauche ou à droite 
+    Ctrl + ù                                         : Ouvrir le terminal 
+    Alt + Z                                          : Retour automatique à la ligne 
+    Ctrl + c                                         : copier toute la ligne en placant le curseur n'importe où sur la ligne 
+2- Déplacement et sélection rapide 
+    Maintenir la flèche                              : Déplacement rapide du curseur 
+    Ctrl + flèche                                    : Sélection progrssive du texte 
+    Alt + Maj + flèche de droite                     : Sélection de tout le contenu d'une balise 
+    Ctrl + I                                         : Sélection de toute la ligne
+    Alt + Ctrl + Flèche du bas                       : Multicurseur 
+3- Les Lignes 
+    Alt + Flèche                                     : Déplacer la ligne vers le haut ou vers le bas 
+    Alt + Maj + Flèche du bas                        : Copier rapidement des lignes 
+
+4- Commentaires 
+    Ctrl + /                                         : Activer et désactiver un commentaire 
+
+5- Rechercher et remplacer 
+    Ctrl + F                                         : Rechercher 
+    Ctrl + H                                         :  Remplacer
+
+
+
