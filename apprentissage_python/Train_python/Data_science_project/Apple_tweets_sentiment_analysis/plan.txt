@@ -1,0 +1,8 @@
+1 - Chargement des données et prise en main des données 
+2 - Nettoyage des données par des regex (tag, liens, RT)
+3 - Normalisation des données (lemmatize)
+4 - Suppréssion des bruits des données (stop-words, ponctuation)
+5 - Densité des mots (wordcloud, scattertext)
+6 - Préparation des données pour le modèle 
+7 - Construction et test du modèle 
+8 - Interprétation et conclusions

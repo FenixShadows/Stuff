@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60601d54602d4c3b83ceefc0b1a76e45 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_60601d54602d4c3b83ceefc0b1a76e45" ></div>
+        
+</body>
+<script>    
+    
+            var map_60601d54602d4c3b83ceefc0b1a76e45 = L.map(
+                "map_60601d54602d4c3b83ceefc0b1a76e45",
+                {
+                    center: [37.75478879489582, -122.42978908966667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_75df012155c54b94806cd23cbb9e50cb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var marker_b4a09e791b2a4c4fac8cb6f8a53432ed = L.marker(
+                [37.7564496899993, -122.42936434915458],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_42ec4abe690643c8a68d47c43b378bba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4a09e791b2a4c4fac8cb6f8a53432ed.setIcon(icon_42ec4abe690643c8a68d47c43b378bba);
+        
+    
+        var popup_6cc70cae385148699109d52d72048176 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e76b2d80eeaa4d648a7cf11c76065c4f = $(`<div id="html_e76b2d80eeaa4d648a7cf11c76065c4f" style="width: 100.0%; height: 100.0%;">3666 21st St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_6cc70cae385148699109d52d72048176.setContent(html_e76b2d80eeaa4d648a7cf11c76065c4f);
+        
+
+        marker_b4a09e791b2a4c4fac8cb6f8a53432ed.bindPopup(popup_6cc70cae385148699109d52d72048176)
+        ;
+
+        
+    
+    
+            var marker_48aeec4b4c8b44bc94c8288c33c08acc = L.marker(
+                [37.7577961290611, -122.42559668301706],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_deed338756d1435aa7d8b0eee0419ddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48aeec4b4c8b44bc94c8288c33c08acc.setIcon(icon_deed338756d1435aa7d8b0eee0419ddc);
+        
+    
+        var popup_b027b74b6d124105a71cf7f625607817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5853df6edd4a482e87202d7238bcca74 = $(`<div id="html_5853df6edd4a482e87202d7238bcca74" style="width: 100.0%; height: 100.0%;">735 Dolores St, San Francisco, CA 94119, USA</div>`)[0];
+            popup_b027b74b6d124105a71cf7f625607817.setContent(html_5853df6edd4a482e87202d7238bcca74);
+        
+
+        marker_48aeec4b4c8b44bc94c8288c33c08acc.bindPopup(popup_b027b74b6d124105a71cf7f625607817)
+        ;
+
+        
+    
+    
+            var marker_aef1e421bcd0445387171789b27cd82f = L.marker(
+                [37.75564836499496, -122.4288026611172],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_6de69583eb7443088354b696b81db437 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aef1e421bcd0445387171789b27cd82f.setIcon(icon_6de69583eb7443088354b696b81db437);
+        
+    
+        var popup_2c9cc198307e4e7da57784b49799fed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5800ff2721d2419eb304dffd669f447b = $(`<div id="html_5800ff2721d2419eb304dffd669f447b" style="width: 100.0%; height: 100.0%;">332 Hill St, San Francisco, California 94114, USA</div>`)[0];
+            popup_2c9cc198307e4e7da57784b49799fed5.setContent(html_5800ff2721d2419eb304dffd669f447b);
+        
+
+        marker_aef1e421bcd0445387171789b27cd82f.bindPopup(popup_2c9cc198307e4e7da57784b49799fed5)
+        ;
+
+        
+    
+    
+            var marker_0eee4ac188534cbcb2182c677cfc43af = L.marker(
+                [37.752990821253434, -122.43170235858965],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_fb894bacd0d240f193c60bda78f88201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0eee4ac188534cbcb2182c677cfc43af.setIcon(icon_fb894bacd0d240f193c60bda78f88201);
+        
+    
+        var popup_dce5b641373a4a7d8a70f1da89974325 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1885a8b6967944cda07fbb3fdea714f7 = $(`<div id="html_1885a8b6967944cda07fbb3fdea714f7" style="width: 100.0%; height: 100.0%;">3995 23rd St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_dce5b641373a4a7d8a70f1da89974325.setContent(html_1885a8b6967944cda07fbb3fdea714f7);
+        
+
+        marker_0eee4ac188534cbcb2182c677cfc43af.bindPopup(popup_dce5b641373a4a7d8a70f1da89974325)
+        ;
+
+        
+    
+    
+            var marker_3d861e09d98045288210fee41c3a098f = L.marker(
+                [37.752129, -122.43002849999999],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_02b8f65132bb492fb8afb7810a93bfe1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d861e09d98045288210fee41c3a098f.setIcon(icon_02b8f65132bb492fb8afb7810a93bfe1);
+        
+    
+        var popup_f6812e190576476798a273c6d4c63476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc33f426987f417299886e3e393fd78c = $(`<div id="html_fc33f426987f417299886e3e393fd78c" style="width: 100.0%; height: 100.0%;">1056 Sanchez St, San Francisco, California, USA</div>`)[0];
+            popup_f6812e190576476798a273c6d4c63476.setContent(html_fc33f426987f417299886e3e393fd78c);
+        
+
+        marker_3d861e09d98045288210fee41c3a098f.bindPopup(popup_f6812e190576476798a273c6d4c63476)
+        ;
+
+        
+    
+    
+            var marker_1f7bd837ff81411daad98dcb7e6e75e1 = L.marker(
+                [37.75371876406616, -122.43323998612154],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_18b1099f21a94fb1b0f970eff1b8c6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f7bd837ff81411daad98dcb7e6e75e1.setIcon(icon_18b1099f21a94fb1b0f970eff1b8c6f9);
+        
+    
+        var popup_5c94a461ff3249c3a32fbc5dba553159 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fe222d8ce69487193d8db20e596ae47 = $(`<div id="html_3fe222d8ce69487193d8db20e596ae47" style="width: 100.0%; height: 100.0%;">551 Alvarado St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_5c94a461ff3249c3a32fbc5dba553159.setContent(html_3fe222d8ce69487193d8db20e596ae47);
+        
+
+        marker_1f7bd837ff81411daad98dcb7e6e75e1.bindPopup(popup_5c94a461ff3249c3a32fbc5dba553159)
+        ;
+
+        
+    
+    
+            var marker_f574f32b2d6d467cb41eb02b4254c495 = L.marker(
+                [37.7564496899993, -122.42936434915458],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_0a282d07520c492298d78898237b8faf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f574f32b2d6d467cb41eb02b4254c495.setIcon(icon_0a282d07520c492298d78898237b8faf);
+        
+    
+        var popup_418de96c4ecf4011aa49ff6642d02482 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2b4ef452c314d5d9379e5a470e506cd = $(`<div id="html_b2b4ef452c314d5d9379e5a470e506cd" style="width: 100.0%; height: 100.0%;">3666 21st St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_418de96c4ecf4011aa49ff6642d02482.setContent(html_b2b4ef452c314d5d9379e5a470e506cd);
+        
+
+        marker_f574f32b2d6d467cb41eb02b4254c495.bindPopup(popup_418de96c4ecf4011aa49ff6642d02482)
+        ;
+
+        
+    
+    
+            var marker_71a18d54b18d4fc1aa3fefe2bd5c5936 = L.marker(
+                [37.7577961290611, -122.42559668301706],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_ba5f840f8a374e98baa406f3ff9dfd09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_71a18d54b18d4fc1aa3fefe2bd5c5936.setIcon(icon_ba5f840f8a374e98baa406f3ff9dfd09);
+        
+    
+        var popup_f1833364651f42fa8920a1ef8dfd0d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f23cd8db4cad401fb1243177314b6669 = $(`<div id="html_f23cd8db4cad401fb1243177314b6669" style="width: 100.0%; height: 100.0%;">735 Dolores St, San Francisco, CA 94119, USA</div>`)[0];
+            popup_f1833364651f42fa8920a1ef8dfd0d3b.setContent(html_f23cd8db4cad401fb1243177314b6669);
+        
+
+        marker_71a18d54b18d4fc1aa3fefe2bd5c5936.bindPopup(popup_f1833364651f42fa8920a1ef8dfd0d3b)
+        ;
+
+        
+    
+    
+            var marker_a104ba1cd04e4baeb6e0d23019ff7f47 = L.marker(
+                [37.75564836499496, -122.4288026611172],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_9301007fd034454ab1a8e93740a1a45a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a104ba1cd04e4baeb6e0d23019ff7f47.setIcon(icon_9301007fd034454ab1a8e93740a1a45a);
+        
+    
+        var popup_75fadc9623b34ab6821b2cfb7c840238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d736f212ea145b08a302bcf0f36cd0e = $(`<div id="html_9d736f212ea145b08a302bcf0f36cd0e" style="width: 100.0%; height: 100.0%;">332 Hill St, San Francisco, California 94114, USA</div>`)[0];
+            popup_75fadc9623b34ab6821b2cfb7c840238.setContent(html_9d736f212ea145b08a302bcf0f36cd0e);
+        
+
+        marker_a104ba1cd04e4baeb6e0d23019ff7f47.bindPopup(popup_75fadc9623b34ab6821b2cfb7c840238)
+        ;
+
+        
+    
+    
+            var marker_0f39d8fa98d64a0198c94d77efe2034d = L.marker(
+                [37.752990821253434, -122.43170235858965],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_71dae19068274856ae234ec9397fc4d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0f39d8fa98d64a0198c94d77efe2034d.setIcon(icon_71dae19068274856ae234ec9397fc4d4);
+        
+    
+        var popup_49b98b57ed9c4f789b77c109fa8c5804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99f9fbb89c34396bd48f9382935f2c8 = $(`<div id="html_b99f9fbb89c34396bd48f9382935f2c8" style="width: 100.0%; height: 100.0%;">3995 23rd St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_49b98b57ed9c4f789b77c109fa8c5804.setContent(html_b99f9fbb89c34396bd48f9382935f2c8);
+        
+
+        marker_0f39d8fa98d64a0198c94d77efe2034d.bindPopup(popup_49b98b57ed9c4f789b77c109fa8c5804)
+        ;
+
+        
+    
+    
+            var marker_f2028c1a3e63453eb1aad46f7bdca79b = L.marker(
+                [37.752129, -122.43002849999999],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_2b15e21369c84a71afad13cf422d6f3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f2028c1a3e63453eb1aad46f7bdca79b.setIcon(icon_2b15e21369c84a71afad13cf422d6f3d);
+        
+    
+        var popup_8f68eabd32e947fdaeaf9ef8a7af857f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa58dce141804ee5ae0a29799b899797 = $(`<div id="html_fa58dce141804ee5ae0a29799b899797" style="width: 100.0%; height: 100.0%;">1056 Sanchez St, San Francisco, California, USA</div>`)[0];
+            popup_8f68eabd32e947fdaeaf9ef8a7af857f.setContent(html_fa58dce141804ee5ae0a29799b899797);
+        
+
+        marker_f2028c1a3e63453eb1aad46f7bdca79b.bindPopup(popup_8f68eabd32e947fdaeaf9ef8a7af857f)
+        ;
+
+        
+    
+    
+            var marker_e0216f4a9be94c3b9d8e1933cab192d5 = L.marker(
+                [37.75371876406616, -122.43323998612154],
+                {}
+            ).addTo(map_60601d54602d4c3b83ceefc0b1a76e45);
+        
+    
+            var icon_9ffcf2a1c21a4207b8dd90a2d0f37b89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e0216f4a9be94c3b9d8e1933cab192d5.setIcon(icon_9ffcf2a1c21a4207b8dd90a2d0f37b89);
+        
+    
+        var popup_62cc9ac4bbc84507b632e02d1fc2366c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26a0deda711e4222807e63573d04d480 = $(`<div id="html_26a0deda711e4222807e63573d04d480" style="width: 100.0%; height: 100.0%;">551 Alvarado St, San Francisco, CA 94114, USA</div>`)[0];
+            popup_62cc9ac4bbc84507b632e02d1fc2366c.setContent(html_26a0deda711e4222807e63573d04d480);
+        
+
+        marker_e0216f4a9be94c3b9d8e1933cab192d5.bindPopup(popup_62cc9ac4bbc84507b632e02d1fc2366c)
+        ;
+
+        
+    
+</script>
